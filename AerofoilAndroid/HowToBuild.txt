@@ -1,0 +1,19 @@
+Create a folder in the Aerofoil root directory named "tools"
+Put 7-zip's "7z.exe" and "7z.dll" in the "tools" directory
+
+Build the Aerofoil.sln project in release mode in Visual Studio
+
+Open a command prompt with administrator privileges
+Change the directory to the AerofoilAndroid directory
+Run make_symlinks.bat
+
+First time, and any time data changes:
+Run ConvertResources.bat in the root directory
+Run copy_packaged_resources.bat in the AerofoilAndroid directory
+
+First time, and any time source changes:
+Run copy_source_package.bat in the AerofoilAndroid directory
+
+Install Android Studio
+Open the AerofoilAndroid directory as a project
+Downgrade the JDK to version 11 in the SDK settings
