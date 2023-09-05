@@ -30,7 +30,7 @@ IGpDisplayDriver *GpDriver_CreateDisplayDriver_SDL_GL2(const GpDisplayDriverProp
 IGpAudioDriver *GpDriver_CreateAudioDriver_SDL(const GpAudioDriverProperties &properties);
 IGpInputDriver *GpDriver_CreateInputDriver_SDL2_Gamepad(const GpInputDriverProperties &properties);
 
-#ifdef __MACOS__
+#ifndef _WIN32
 int main(int argc, char *argv[])
 #else
 SDLMAIN_DECLSPEC int SDL_main(int argc, char *argv[])

@@ -27,7 +27,7 @@
 
 #include "UTF8.h"
 
-#if defined(__CYGWIN__) || defined(__MACOS__)
+#if defined(__CYGWIN__) || defined(__MACOS__) || defined(__linux)
 typedef off_t off64_t;
 #define fstat64 fstat
 #define fseek64 fseek
@@ -305,6 +305,8 @@ GpIOStream *GpFileSystem_X::OpenFileNested(PortabilityLayer::VirtualDirectory_t 
 	FILE *f = fopen(resolvedPath.c_str(), mode);
 	if (!f)
 	{
+		fprintf(stderr, "GpFileSystem_X: Cannot open \"%s\"\n",
+				resolvedPath.c_str());
 		free(objStorage);
 		return nullptr;
 	}

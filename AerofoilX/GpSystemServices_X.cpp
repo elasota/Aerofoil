@@ -3,16 +3,13 @@
 #include "IGpClipboardContents.h"
 #include "IGpThreadEvent.h"
 
-#ifdef __MACOS__
 #include <SDL.h>
 #include <pthread.h>
-#else
-#include "SDL2/SDL.h"
-#endif
-
 #include <time.h>
 #include <unistd.h>
 #include <string>
+#include <string.h>
+#include <stdlib.h>
 
 struct GpSystemServices_X_ThreadStartParams
 {
@@ -52,13 +49,19 @@ void *GpSystemServices_X::CreateThread(ThreadFunc_t threadFunc, void *context)
 	if (!evt)
 		return nullptr;
 
+	pthread_t *threadPtr = static_cast<pthread_t*>(malloc(sizeof(pthread_t)));
+	if (!threadPtr)
+	{
+		evt->Destroy();
+		return nullptr;
+	}
+
 	GpSystemServices_X_ThreadStartParams startParams;
 	startParams.m_threadContext = context;
 	startParams.m_threadFunc = threadFunc;
 	startParams.m_threadStartEvent = evt;
 
-	pthread_t thread = nullptr;
-	if (pthread_create(&thread, nullptr, StaticStartThread, &startParams) != 0)
+	if (pthread_create(threadPtr, nullptr, StaticStartThread, &startParams) != 0)
 	{
 		evt->Destroy();
 		return nullptr;
@@ -67,7 +70,7 @@ void *GpSystemServices_X::CreateThread(ThreadFunc_t threadFunc, void *context)
 	evt->Wait();
 	evt->Destroy();
 
-	return thread;
+	return static_cast<void*>(threadPtr);
 }
 
 bool GpSystemServices_X::Beep() const
