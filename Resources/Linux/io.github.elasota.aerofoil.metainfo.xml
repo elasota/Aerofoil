@@ -6,6 +6,10 @@
     <name>Aerofoil Contributors</name>
     <url>https://github.com/elasota/Aerofoil/graphs/contributors</url>
   </developer>
+  <branding>
+    <color type="primary" scheme_preference="light">#ffcc99</color>
+    <color type="primary" scheme_preference="dark">#6b3838</color>
+  </branding>
   <summary>A modern cross-platform port of Glider PRO, the classic Macintosh paper airplane game</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
@@ -31,9 +35,7 @@
   <categories>
     <category>Game</category>
   </categories>
-  <releases>
-    <release version="1.1.2" date="2021-11-10"/>
-  </releases>
+  <releases type="external" />
   <content_rating type="oars-1.1"></content_rating>
   <update_contact>https://github.com/elasota</update_contact>
 </component>

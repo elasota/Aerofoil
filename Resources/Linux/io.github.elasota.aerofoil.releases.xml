@@ -1,0 +1,10 @@
+<releases>
+  <release version="1.1.2" date="2021-11-10">
+    <url>https://github.com/elasota/Aerofoil/releases/tag/1.1.2</url>
+        <description>
+            <p>Added gamepad support to Android and fixed gamepads not working
+                on other platforms.</p>
+            <p>Split off comand-line import tools to a separate package.</p>
+        </description>
+    </release>
+</releases>
