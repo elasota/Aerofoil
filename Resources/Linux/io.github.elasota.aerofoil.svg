@@ -2,12 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="159.04507mm"
-   height="130.00002mm"
-   viewBox="0 0 159.04507 130.00002"
+   width="180mm"
+   height="180mm"
+   viewBox="0 0 179.99999 180"
    version="1.1"
    id="svg1"
    xml:space="preserve"
+   sodipodi:docname="io.github.elasota.aerofoil.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.30992466"
-     inkscape:cx="608.21232"
-     inkscape:cy="554.97358"
+     inkscape:cx="608.21233"
+     inkscape:cy="554.97359"
      inkscape:window-width="1366"
      inkscape:window-height="696"
      inkscape:window-x="0"
@@ -35,7 +37,7 @@
        id="grid4"
        units="mm"
        originx="-25.954912"
-       originy="-85.000006"
+       originy="-85.000008"
        spacingx="0.99999998"
        spacingy="1"
        empcolor="#0099e5"
@@ -75,7 +77,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-25.954913,-85.000005)"><g
-       id="g6"><path
+       id="g6"
+       transform="translate(10.477456,23.156336)"><path
          style="fill:url(#linearGradient2);stroke:none;stroke-width:0.699961;stroke-linecap:round"
          id="path1"
          sodipodi:type="arc"
