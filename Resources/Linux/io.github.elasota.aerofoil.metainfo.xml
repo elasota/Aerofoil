@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <id>io.github.elasota.aerofoil</id>
+  <name>Aerofoil</name>
+  <developer id="io.github.elasota.aerofoil">
+    <name>Aerofoil Contributors</name>
+    <url>https://github.com/elasota/Aerofoil/graphs/contributors</url>
+  </developer>
+  <summary>A modern cross-platform port of Glider PRO, the classic Macintosh paper airplane game</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <url type="homepage">https://github.com/elasota/Aerofoil/</url>
+  <description>
+    <p>Aerofoil is a port of John Calhoun's Glider PRO, the classic paper airplane game
+      for Apple Macintosh computers released in 1994.</p>
+    <p>The port features a 90's-style GUI, gamepad support, high-quality upscaling and
+      color correction, a full port of the level editor, a set of import tools for unpacking
+      and converting the vast majority of existing community content, and a new touchscreen interface
+      for mobile devices.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://play-lh.googleusercontent.com/9AWQ8tfXjjavos7xLahHolliczMrLNnCz8erMzrMu1dRr-ZRpbNnQc-kn_0GFjfTxBs=w2560-h1440</image>
+      <caption>How to tip the grease...</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://play-lh.googleusercontent.com/rkBnqvdYw_H02E3Xue0wd6WS44SZdMm6orNy-gRCFyauH7sdu6N-h-2G12NHF74b6zI=w2560-h1440</image>
+      <caption>Koo-koo</caption>
+    </screenshot>
+  </screenshots>
+  <categories>
+    <category>Game</category>
+  </categories>
+  <releases>
+    <release version="1.1.2" date="2021-11-10"/>
+  </releases>
+  <content_rating type="oars-1.1"></content_rating>
+  <update_contact>https://github.com/elasota</update_contact>
+</component>

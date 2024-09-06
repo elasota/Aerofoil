@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Game
+Comment=A modern port of Glider PRO, the classic Macintosh paper airplane game
+Exec=AerofoilX
+Icon=io.github.elasota.aerofoil
+Keywords=glider;glider pro;paper airplane
+Name=Aerofoil
+StartupNotify=true
+Terminal=false
