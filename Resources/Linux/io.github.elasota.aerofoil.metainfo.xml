@@ -3,7 +3,7 @@
   <id>io.github.elasota.aerofoil</id>
   <name>Aerofoil</name>
   <developer id="io.github.elasota.aerofoil">
-    <name>Aerofoil Contributors</name>
+    <name>John Calhoun, Eric Lasota, Aerofoil Contributors</name>
     <url>https://github.com/elasota/Aerofoil/graphs/contributors</url>
   </developer>
   <branding>
@@ -24,18 +24,29 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://play-lh.googleusercontent.com/9AWQ8tfXjjavos7xLahHolliczMrLNnCz8erMzrMu1dRr-ZRpbNnQc-kn_0GFjfTxBs=w2560-h1440</image>
-      <caption>How to tip the grease...</caption>
+      <image type="source">https://cdn.jsdelivr.net/gh/elasota/elasota.github.io@refs/heads/master/aerofoil/titlescreen.png</image>
+      <caption>The classic title screen with the custom menu GUI</caption>
     </screenshot>
     <screenshot>
-      <image type="source">https://play-lh.googleusercontent.com/rkBnqvdYw_H02E3Xue0wd6WS44SZdMm6orNy-gRCFyauH7sdu6N-h-2G12NHF74b6zI=w2560-h1440</image>
-      <caption>Koo-koo</caption>
+      <image type="source">https://cdn.jsdelivr.net/gh/elasota/elasota.github.io@refs/heads/master/aerofoil/demomode.png</image>
+      <caption>Demo mode</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://cdn.jsdelivr.net/gh/elasota/elasota.github.io@refs/heads/master/aerofoil/winscreen.png</image>
+      <caption>You won!</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://cdn.jsdelivr.net/gh/elasota/elasota.github.io@refs/heads/master/aerofoil/nemosmarket.png</image>
+      <caption>One of the included houses</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://cdn.jsdelivr.net/gh/elasota/elasota.github.io@refs/heads/master/aerofoil/editor.png</image>
+      <caption>Level editor included!</caption>
     </screenshot>
   </screenshots>
   <categories>
     <category>Game</category>
   </categories>
-  <releases type="external" />
+  <releases type="external" url="https://raw.githubusercontent.com/elasota/Aerofoil/refs/heads/master/Resources/Linux/io.github.elasota.aerofoil.releases.xml" />
   <content_rating type="oars-1.1"></content_rating>
-  <update_contact>https://github.com/elasota</update_contact>
 </component>
