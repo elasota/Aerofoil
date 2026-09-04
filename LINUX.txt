@@ -3,7 +3,7 @@ Linux support is IN ALPHA and may or may not work.
 Use these basic steps to build and install Aerofoil:
 - Ensure dependencies are installed - all of these are likely available from
   your distribution's package manager:
-    - CMake 3.10 or later (https://cmake.org/download/)
+    - CMake 3.26 or later (https://cmake.org/download/)
     - SDL 2.0.12 or later (https://libsdl.org)
     - FreeType 2.10.1 or later (https://freetype.org/download.html)
 - Change directory to the Aerofoil source root (the directory containing this file)
