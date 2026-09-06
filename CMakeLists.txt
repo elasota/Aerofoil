@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.26)
 project (Aerofoil)
 SET(PLATFORM "X" CACHE STRING "Defines the target platform")
 SET(EXECNAME "AerofoilX" CACHE STRING "Defines the exec name")
