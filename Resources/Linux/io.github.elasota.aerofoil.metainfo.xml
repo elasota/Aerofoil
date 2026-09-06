@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component>
+<!-- Copyright 2026 Aerofoil Contributors -->
+<component type="desktop-application">
   <id>io.github.elasota.aerofoil</id>
   <name>Aerofoil</name>
   <developer id="io.github.elasota.aerofoil">
@@ -12,8 +13,10 @@
   </branding>
   <summary>A modern cross-platform port of Glider PRO, the classic Macintosh paper airplane game</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-2.0</project_license>
+  <project_license>GPL-2.0-only</project_license>
   <url type="homepage">https://github.com/elasota/Aerofoil/</url>
+  <url type="vcs-browser">https://github.com/elasota/Aerofoil/</url>
+  <url type="bugtracker">https://github.com/elasota/Aerofoil/issues</url>
   <description>
     <p>Aerofoil is a port of John Calhoun's Glider PRO, the classic paper airplane game
       for Apple Macintosh computers released in 1994.</p>
@@ -22,6 +25,9 @@
       and converting the vast majority of existing community content, and a new touchscreen interface
       for mobile devices.</p>
   </description>
+
+  <launchable type="desktop-id">io.github.elasota.aerofoil.desktop</launchable>
+
   <screenshots>
     <screenshot type="default">
       <image type="source">https://cdn.jsdelivr.net/gh/elasota/elasota.github.io@refs/heads/master/aerofoil/titlescreen.png</image>
@@ -45,14 +51,18 @@
     </screenshot>
   </screenshots>
   <recommends>
-    <input>keyboard</input>
+    <control>keyboard</control>
+    <control>pointing</control>
   </recommends>
+  <supports>
+    <control>gamepad</control>
+  </supports>
   <categories>
     <category>Game</category>
   </categories>
   <releases>
     <release version="1.1.2" date="2021-11-10">
-      <url>https://github.com/elasota/Aerofoil/releases/tag/1.1.2</url>
+      <url type="details">https://github.com/elasota/Aerofoil/releases/tag/1.1.2</url>
           <description>
               <p>Added gamepad support to Android and fixed gamepads not working
                   on other platforms.</p>
