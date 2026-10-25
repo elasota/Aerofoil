@@ -2,3 +2,7 @@
 	path = AerofoilWeb/FileSaverDotJS
 	url = https://github.com/eligrey/FileSaver.js.git
 	branch = master
+[submodule "zlib/zlib"]
+	path = zlib/zlib
+	url = https://github.com/madler/zlib
+	branch = master
