@@ -23,6 +23,9 @@
 *.a
 *.recipe
 *.FileListAbsolute.txt
+*.dt.d.json
+*.dt.module.json
+*.dt.module.json.command
 .vs/*
 Packaged/*
 DebugData/*
