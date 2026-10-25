@@ -26,6 +26,13 @@ Core application binaries:
 Building ReleasePackageInstaller will also automatically run all of the data
 import and packaging scripts.  Doing a clean Rebuild on ReleasePackageInstaller
 should give you a complete game installation in the "ReleasePkg" directory.
+
+NOTE: ReleasePackageInstaller is currently non-functional because the Visual Studio
+WiX tools were discontinued, it needs to be ported to use the CLI tools instead.
+
+To build the game data, run ConvertResources.bat instead.
+
+To package a release, run MakeRelease.bat
   
 
 Libraries:
