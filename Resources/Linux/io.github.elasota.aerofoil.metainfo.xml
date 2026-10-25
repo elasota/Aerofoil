@@ -61,14 +61,20 @@
     <category>Game</category>
   </categories>
   <releases>
+    <release version="1.1.7" date="2026-10-25">
+      <url type="details">https://github.com/elasota/Aerofoil/releases/tag/1.1.7</url>
+      <description>
+        <p>Improved Linux compatibility.</p>
+      </description>
+    </release>
     <release version="1.1.2" date="2021-11-10">
       <url type="details">https://github.com/elasota/Aerofoil/releases/tag/1.1.2</url>
-          <description>
-              <p>Added gamepad support to Android and fixed gamepads not working
-                  on other platforms.</p>
-              <p>Split off comand-line import tools to a separate package.</p>
-          </description>
-      </release>
+      <description>
+        <p>Added gamepad support to Android and fixed gamepads not working
+            on other platforms.</p>
+        <p>Split off comand-line import tools to a separate package.</p>
+      </description>
+    </release>
   </releases>
   <content_rating type="oars-1.1"></content_rating>
 </component>
