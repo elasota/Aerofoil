@@ -46,14 +46,14 @@ add_library(stb STATIC
 	)
 
 add_library(zlib STATIC
-	zlib/adler32.c
-	zlib/crc32.c
-	zlib/deflate.c
-	zlib/inffast.c
-	zlib/inflate.c
-	zlib/inftrees.c
-	zlib/trees.c
-	zlib/zutil.c
+	zlib/zlib/adler32.c
+	zlib/zlib/crc32.c
+	zlib/zlib/deflate.c
+	zlib/zlib/inffast.c
+	zlib/zlib/inflate.c
+	zlib/zlib/inftrees.c
+	zlib/zlib/trees.c
+	zlib/zlib/zutil.c
 	)
 
 add_library(MacRomanConversion STATIC
@@ -152,7 +152,7 @@ target_include_directories(PortabilityLayer PRIVATE
 	Common
 	GpCommon
 	PortabilityLayer
-	zlib
+	zlib/zlib
 	rapidjson/include
 	MacRomanConversion
 	stb
@@ -371,7 +371,7 @@ target_include_directories(gpr2gpa PRIVATE
 	MacRomanConversion
 	WindowsUnicodeToolShim
 	rapidjson/include
-	zlib
+	zlib/zlib
 	)
 target_link_libraries(gpr2gpa PortabilityLayer MacRomanConversion zlib)
 
