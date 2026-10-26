@@ -27,6 +27,7 @@
 *.dt.module.json
 *.dt.module.json.command
 .vs/*
+.vscode/*
 Packaged/*
 DebugData/*
 ReleasePkg/*
